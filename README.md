@@ -1,10 +1,16 @@
 # LargeCoheEsti
 
-Supporting Code for "Reliable Estimation of Coherence from Scarce Data: Theory and Experiment"
+Supporting Code for "Scalable protocol for coherence estimation from scarce data: Theory and experiment"
 
 ## Introduction
 
-This repository contains the official source code for the paper "Reliable Estimation of Coherence from Scarce Data: Theory and Experiment".
+This repository contains supporting code for the published paper:
+
+> Qi-Ming Ding, Ting Zhang, Hui Li, and Da-Jian Zhang, **Scalable protocol for coherence estimation from scarce data: Theory and experiment**, *Physical Review A* **113**, 032444 (2026).
+
+[Published article](https://doi.org/10.1103/g8sh-hts2) | [arXiv:2510.21138](https://arxiv.org/abs/2510.21138)
+
+This repository is a fork of [geeeekDing/LargeCoheEsti](https://github.com/geeeekDing/LargeCoheEsti), the upstream repository.
 
 It includes all the necessary code to reproduce the figures, generate the experimental data, and validate the algorithms presented in the paper.
 
@@ -42,4 +48,24 @@ Data Generation & Algorithm Validation: These tasks are primarily handled by the
 Figure Plotting: The figures are generated using Python scripts. These scripts read the data files (in .mat or .csv format) produced by MATLAB and create the plots shown in the paper.
 
 ## Citation
+
 If you use this code or our methods in your research, please cite our paper:
+
+```bibtex
+@article{Ding2026CoherenceEstimation,
+  author = {Ding, Qi-Ming and Zhang, Ting and Li, Hui and Zhang, Da-Jian},
+  title = {Scalable protocol for coherence estimation from scarce data: Theory and experiment},
+  journal = {Physical Review A},
+  volume = {113},
+  number = {3},
+  pages = {032444},
+  year = {2026},
+  doi = {10.1103/g8sh-hts2},
+  url = {https://doi.org/10.1103/g8sh-hts2},
+  eprint = {2510.21138},
+  archivePrefix = {arXiv},
+  primaryClass = {quant-ph}
+}
+```
+
+The repository's [CITATION.cff](CITATION.cff) also identifies this paper as the preferred citation.

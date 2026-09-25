@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: If you use this code or the accompanying methods, please cite the paper in preferred-citation.
+type: software
+title: 'LargeCoheEsti: Supporting Code for Coherence Estimation'
+authors:
+- family-names: Ding
+  given-names: Qi-Ming
+- family-names: Zhang
+  given-names: Ting
+  orcid: https://orcid.org/0000-0003-3065-7946
+- family-names: Li
+  given-names: Hui
+- family-names: Zhang
+  given-names: Da-Jian
+  orcid: https://orcid.org/0000-0002-1291-3806
+repository-code: https://github.com/zhangdajian-sdu/LargeCoheEsti
+preferred-citation:
+  type: article
+  title: 'Scalable protocol for coherence estimation from scarce data: Theory and experiment'
+  authors:
+  - family-names: Ding
+    given-names: Qi-Ming
+  - family-names: Zhang
+    given-names: Ting
+    orcid: https://orcid.org/0000-0003-3065-7946
+  - family-names: Li
+    given-names: Hui
+  - family-names: Zhang
+    given-names: Da-Jian
+    orcid: https://orcid.org/0000-0002-1291-3806
+  journal: Physical Review A
+  volume: '113'
+  issue: '3'
+  start: '032444'
+  year: 2026
+  doi: 10.1103/g8sh-hts2
+  url: https://doi.org/10.1103/g8sh-hts2
